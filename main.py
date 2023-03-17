@@ -1,7 +1,7 @@
 # python3
 
 def parallel_processing(n, m, data):
-output = []
+    output = []
     time = [0] * n  # initialize time list with zeros
     for thread in data:
         # find the index of the thread with minimum time
